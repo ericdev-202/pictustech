@@ -52,7 +52,7 @@ a {
         display: block;
     }
     main .open-site{
-        height: 30vh !important;
+        /*height: 30vh !important;*/
     }
     main .site-content{
         grid-template-columns: 100% !important;
@@ -112,9 +112,12 @@ a {
     section .about .contact h2{
         text-align: center !important;
     }
+    section .open-site{
+        /*height: 80vh !important;*/
+    }
     section .open-site .open-background h2,h3,h5{
         position: relative;
-        font-size: 17px !important;
+        font-size: 13px !important;
         color: white !important;
     }
     footer.rights{
@@ -125,7 +128,7 @@ a {
         display: block !important;
     }
     .footer{
-        margin-top: 80% !important;
+        margin-top: 30% !important;
         width: 100% !important;
         height: 100% !important;
         /*background-color: #F9A602;*/
@@ -165,11 +168,8 @@ a {
         margin: .0rem 3rem !important; 
         /*margin-bottom: 10% !important;*/
     }
-    main .site-title {
-    height: 80vh !important;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+    section .site-title {
+    height: 180vh !important;
     }
     main .blog-post .blog-content{
     display: flex !important;
@@ -179,7 +179,14 @@ a {
     height: 480px !important;
     margin: 1rem .5rem !important;
     box-shadow: 0 15px 20px rgba(0,0,0,0.2) !important;
-    }     
+    }   
+    main .site-title .site-background{
+    padding-top: 3rem !important;
+    text-align: center !important;
+    color: white;
+    }
+
+
 }
 
 
@@ -204,7 +211,7 @@ a {
         font-size: 10px !important;
     }
     section .about .comment{
-        margin-top: 30px !important;
+        margin-top: 10px !important;
     }
     section .about .contact{
         margin-left: 0px !important;
@@ -226,7 +233,7 @@ a {
         display: block !important;
     }
     .footer{
-        margin-top: 80% !important;
+        margin-top: 60% !important;
         width: 100% !important;
         height: 100% !important;
         /*background-color: #F9A602;*/
@@ -266,12 +273,6 @@ a {
         margin: .0rem 3rem !important; 
         /*margin-bottom: 10% !important;*/
     }
-    main .site-title {
-    height: 80vh !important;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    }
     main .blog-post .blog-content{
     display: flex !important;
     flex-direction: column !important;
@@ -281,12 +282,24 @@ a {
     margin: 1rem .5rem !important;
     box-shadow: 0 15px 20px rgba(0,0,0,0.2) !important;
     }
+    .open-site{
+    /*background-image: url('../../static/images/21.jpg');*/
+    height: 100% !important;
+    background-size: cover;
+    display: flex;
+    justify-content: center !important;
+    /*margin: 4rem;*/
+}
+.open-site .open-background h2,h3,h5{
+    margin-top: 1%;
+    color: white !important;
+}
 }
 
 /*....open site....*/
 .open-site{
     background-image: url('../../static/images/21.jpg');
-    height: 50vh;
+    height: 40vh;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -310,21 +323,21 @@ footer .newsletter h6{
 
 main .site-title {
     background-image: url('../../static/images/2.jpg');
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     display: flex;
     justify-content: center;
 
 }
 main .site-title .site-background{
-    padding-top: 5rem;
+    padding-top: 10rem;
     text-align: center;
     color: white;
 }
 .site-title h1,h3{
     /*font-size: 60px;*/
     color: #F9A602;
-    margin: 3rem;
+    margin: 1rem;
 }
 main .site-title .btn{
     margin: 1.8rem;
@@ -358,8 +371,8 @@ main .blog .blog-post{
 }
 .blog h1,h5{
     color: #F9A602 !important;
-    text-align: center;
-    margin-top: 7%;
+    text-align: center !important;
+    margin-top: 3%;
 }
 section .blog h4{
     color: black;
