@@ -112,8 +112,8 @@ a {
     section .about .contact h2{
         text-align: center !important;
     }
-    section .open-site{
-        /*height: 80vh !important;*/
+    .open-site{
+        height: 50vh !important;
     }
     section .open-site .open-background h2,h3,h5{
         position: relative;
@@ -128,7 +128,7 @@ a {
         display: block !important;
     }
     .footer{
-        margin-top: 30% !important;
+        margin-top: 45% !important;
         width: 100% !important;
         height: 100% !important;
         /*background-color: #F9A602;*/
@@ -233,7 +233,7 @@ a {
         display: block !important;
     }
     .footer{
-        margin-top: 60% !important;
+        margin-top: 75% !important;
         width: 100% !important;
         height: 100% !important;
         /*background-color: #F9A602;*/
