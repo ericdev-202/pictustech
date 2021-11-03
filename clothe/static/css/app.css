@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dancing+Script:wght@400;500&family=Fruktur&family=Great+Vibes&family=Henny+Penny&family=Irish+Grover&family=Playfair+Display:ital,wght@0,400;1,400;1,500;1,600&family=Tangerine:wght@400;700&family=Zen+Kurenaido&family=Zen+Old+Mincho:wght@400;900&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -89,15 +90,22 @@ a {
     main.blog{
         height: 125vh !important;
     }
+    .container-fluid h2{
+        font-size: 12px !important;
+        margin-left: 0px !important;
+    }
     .site-content .post-content> .post-image .post-info{
         display: none !important;
     }
     footer.footer .contain> div{
         padding: 1rem .9rem !important;
-        height: 130px !important;
+        height: 110px !important;
     }
     .contain .about-us p{
         font-size: 10px !important;
+    }
+    section .about .comment{
+        margin-top: 30px !important;
     }
     section .about .contact{
         margin-left: 0px !important;
@@ -107,6 +115,7 @@ a {
         text-align: center !important;
     }
     section .open-site .open-background h2,h3,h5{
+        position: relative;
         font-size: 17px !important;
         color: white !important;
     }
@@ -114,15 +123,20 @@ a {
         padding: 0 1.4rem !important;
         text-align: center !important;
     }
+    footer .rights p{
+        display: block !important;
+    }
     .footer{
-        margin-top: 60% !important;
+        margin-top: 80% !important;
         width: 100% !important;
         height: 100% !important;
-        background-color: #F9A602;
+        /*background-color: #F9A602;*/
         position: relative;
     }
     .footer .follow{
-        margin-left: 30px !important;
+        display: none !important;
+        margin-top: 20px !important;
+        margin-left: 40px !important;
         right: 10%;
     }
     .text-gray{
@@ -153,6 +167,21 @@ a {
         margin: .0rem 3rem !important; 
         /*margin-bottom: 10% !important;*/
     }
+    main .site-title {
+    height: 80vh !important;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    }
+    main .blog-post .blog-content{
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    width: 95% !important;
+    height: 480px !important;
+    margin: 1rem .5rem !important;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2) !important;
+    }
 }
 
 /*....open site....*/
@@ -166,6 +195,12 @@ a {
 }
 .open-background h3{
     color: white;
+}
+footer .follow .social a i{
+    color: black !important;
+}
+footer .newsletter h6{
+    color: black !important;
 }
 .open-site .open-background h2,h3,h5{
     margin-top: 15%;
@@ -232,13 +267,13 @@ section .blog h4{
     text-align: center;
 }
 main .blog-post .blog-content{
-    display: flex !important;
-    flex-direction: column !important;
-    text-align: center !important;
-    width: 80% !important;
-    height: 480px !important;
-    margin: 3rem 2rem !important;
-    box-shadow: 0 15px 20px rgba(0,0,0,0.2) !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    height: 480px;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
 }
 .blog-post .blog-content img{
     height: 190px !important;
@@ -468,7 +503,7 @@ main .post-content .post-title a{
     grid-template-columns: repeat(2,1fr);
 }
 .about .contain .about-us{
-    background-color: #bc987e;
+    background-color: #77b1f7;
 
 }
 .about .contain .about-us h2{
@@ -568,6 +603,10 @@ main .post-content .post-title a{
     color: white;
     padding: 0.4rem
 }
+footer .rights p{
+    display: none;
+    color: black !important;
+}
 
 footer .footer .move-up{
     position: absolute !important;
@@ -575,7 +614,7 @@ footer .footer .move-up{
     top: 90% ;
 }
 .footer .move-up span{
-    color: white;
+    color: black;
 }
 .footer .move-up span:hover{
     color: green;
