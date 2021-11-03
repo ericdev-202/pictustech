@@ -82,7 +82,104 @@ a {
         background-color: #e5edf1;
         display: grid;
         grid-template-columns: repeat(1,1fr);
+    }   
+    main.blog{
+        height: 125vh !important;
+    }
+    .container-fluid h2{
+        font-size: 12px !important;
+    }
+    .container-fluid p{
+        font-size: 10px !important;
+    }
+    .site-content .post-content> .post-image .post-info{
+        display: none !important;
+    }
+    footer.footer .contain> div{
+        padding: 1rem .9rem !important;
+        height: 110px !important;
+    }
+    .contain .about-us p{
+        font-size: 10px !important;
+    }
+    section .about .comment{
+        margin-top: 30px !important;
+    }
+    section .about .contact{
+        margin-left: 0px !important;
+        font-size: 10px !important;
+    }
+    section .about .contact h2{
+        text-align: center !important;
+    }
+    section .open-site .open-background h2,h3,h5{
+        position: relative;
+        font-size: 17px !important;
+        color: white !important;
+    }
+    footer.rights{
+        padding: 0 1.4rem !important;
+        text-align: center !important;
+    }
+    footer .rights p{
+        display: block !important;
+    }
+    .footer{
+        margin-top: 80% !important;
+        width: 100% !important;
+        height: 100% !important;
+        /*background-color: #F9A602;*/
+        position: relative;
+    }
+    .footer .follow{
+        display: none !important;
+        margin-top: 20px !important;
+        margin-left: 40px !important;
+        right: 10%;
+    }
+    .text-gray{
+        font-size: 12px !important;
+    } 
+    .try{
+        margin: .0rem 2rem !important;
+    }  
+    section .contan{
+        width: 100% !important;
+        height: 600PX !important;
+        background-color: #e5edf1;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }    
+    section .contan .contact{
+        margin-left: 0px !important;
+        font-size: 10px !important;
+    }
+    section .contan .contact h2{
+        text-align: center !important;
+    }    
+    .more{
+        height: 100% !important;
+        position: relative !important;
+    }
+    .more .more-about{
+        margin: .0rem 3rem !important; 
+        /*margin-bottom: 10% !important;*/
+    }
+    main .site-title {
+    height: 80vh !important;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    }
+    main .blog-post .blog-content{
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    width: 95% !important;
+    height: 480px !important;
+    margin: 1rem .5rem !important;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2) !important;
+    }     
 }
 
 
@@ -92,7 +189,9 @@ a {
     }
     .container-fluid h2{
         font-size: 12px !important;
-        margin-left: 0px !important;
+    }
+    .container-fluid p{
+        font-size: 10px !important;
     }
     .site-content .post-content> .post-image .post-info{
         display: none !important;
