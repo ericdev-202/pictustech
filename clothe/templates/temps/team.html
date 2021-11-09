@@ -50,11 +50,12 @@ section .blog-content .blog-title{
 		width: 100% !important;
         /*height: 600px !important;*/
         /*background-color: #e5edf1;*/
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
+        display: grid !important;
+        grid-template-columns: repeat(1,1fr) !important;
 	} 
 	section .container .blog-post .blog-content{
-		width: 350px !important;
+		width: 320px !important;
+		margin-left: 50px !important;
 	}
 }
 @media screen and (max-width: 750px){
@@ -62,7 +63,11 @@ section .blog-content .blog-title{
 		/*background-color: #e5edf1;*/
 		width: 100% !important;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
+	}
+	section .container .blog-post .blog-content{
+		/*width: 250px !important;*/
+		/*margin-left: 5px !important;*/
 	}
 }
 
