@@ -51,6 +51,9 @@ a {
     .mainnavigation .handle {
         display: block;
     }
+    .navbar-brand h2{
+        margin-right: 435px !important;
+    }
     main .open-site{
         /*height: 30vh !important;*/
     }
@@ -251,9 +254,12 @@ a {
     .try{
         margin: .0rem 2rem !important;
     }  
+    .contan .news{
+
+    }
     section .contan{
         width: 100% !important;
-        height: 600PX !important;
+        height: 600px !important;
         background-color: #e5edf1;
         display: grid;
         grid-template-columns: repeat(1,1fr);
