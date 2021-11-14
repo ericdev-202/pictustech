@@ -211,7 +211,7 @@ a {
     text-align: center !important;
     width: 95% !important;
     height: 480px !important;
-    /*margin: 1rem .5rem !important;*/
+    margin: 1rem .5rem !important;
     box-shadow: 0 15px 20px rgba(0,0,0,0.2) !important;
     }   
     main .site-title .site-background{
@@ -355,9 +355,9 @@ a {
     display: flex !important;
     flex-direction: column !important;
     text-align: center !important;
-    /*width: 95% !important;*/
+    width: 95% !important;
     height: 480px !important;
-    /*margin: 1rem .5rem !important;*/
+    margin: 1rem .5rem !important;
     box-shadow: 0 15px 20px rgba(0,0,0,0.2) !important;
     }
     .open-site{
