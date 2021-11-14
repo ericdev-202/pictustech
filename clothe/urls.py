@@ -12,6 +12,4 @@ urlpatterns = [
     path('contact/',c_views.contact,name="contact"),
     path('about/',c_views.about,name="about"),
     path('team/',c_views.team,name="team"),
-    path('login/',c_views.log,name="login"),
-    path('signup/',c_views.sign,name="signup"),
 ]
