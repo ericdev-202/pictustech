@@ -28,8 +28,3 @@ def about(request):
 def team(request):
 	return render(request,'temps/team.html')
 
-def log(request):
-	return render(request,'registration/login.html')
-
-def sign(request):
-	return render(request,'registration/signup.html')

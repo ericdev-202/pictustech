@@ -26,6 +26,16 @@ a {
     footer.footer .contain{
         grid-template-columns: repeat(2,1fr);
     }
+    section .container .blog-post{
+        /*background-color: #e5edf1;*/
+        width: 100% !important;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    section .container .blog-post .blog-content{
+        width: 230px !important;
+        margin-left: 1px !important;
+    }
 }
 
 
@@ -80,12 +90,7 @@ a {
     }
     .text-gray{
         font-size: 12px !important;
-    }
-    section .contan{
-        background-color: #e5edf1;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }   
+    }  
     main.blog{
         height: 125vh !important;
     }
@@ -103,7 +108,7 @@ a {
         height: 110px !important;
     }
     .contain .about-us p{
-        font-size: 10px !important;
+        font-size: 13px !important;
     }
     section .about .comment{
         margin-top: 30px !important;
@@ -149,16 +154,32 @@ a {
     .try{
         margin: .0rem 2rem !important;
     }  
+    section .contaner{
+        width: 100% !important;
+        height: 350px !important;
+        /*background-color: #e5edf1;*/
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }       
+    .contaner h2,h6{
+        margin: 1.3rem 3rem !important;
+    } 
     section .contan{
         width: 100% !important;
-        height: 600PX !important;
-        background-color: #e5edf1;
+        height: 100% !important;
+        /*background-color: #e5edf1;*/
         display: grid;
         grid-template-columns: repeat(1,1fr);
-    }    
+    }   
+    section .contan img{
+        width: 100px;
+        height: 100px;
+        margin-left: 325px !important;
+        margin-top: 10px !important;
+    }  
     section .contan .contact{
         margin-left: 0px !important;
-        font-size: 10px !important;
+        font-size: 13px !important;
     }
     section .contan .contact h2{
         text-align: center !important;
@@ -170,6 +191,16 @@ a {
     .more .more-about{
         margin: .0rem 3rem !important; 
         /*margin-bottom: 10% !important;*/
+    }
+    section .container .blog-post{
+        /*background-color: #e5edf1;*/
+        width: 100% !important;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    section .container .blog-post .blog-content{
+        width: 250px !important;
+        margin-left: 7px !important;
     }
     section .site-title {
     height: 180vh !important;
@@ -188,9 +219,34 @@ a {
     text-align: center !important;
     color: white;
     }
+    .about{
+    /*height: 100%;*/
+    margin-top: .2rem !important;
+    /*background-color: grey;*/
+    position: relative;
+}
 
 
 }
+@media screen and (max-width: 768px){
+    section .contan img{
+        /*margin-left: 330px !important;*/
+    }
+}
+
+@media screen and (max-width: 1024px){
+    section .contan img{
+        /*margin-left: 470px;*/
+    }
+}
+
+@media screen and (max-width: 414px){
+    section .contan img{
+        /*margin-left: 470px !important;*/
+    }
+}
+
+
 
 
 @media screen and (max-width: 520px){
@@ -218,7 +274,7 @@ a {
     }
     section .about .contact{
         margin-left: 0px !important;
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
     section .about .contact h2{
         text-align: center !important;
@@ -257,16 +313,32 @@ a {
     .contan .news{
 
     }
-    section .contan{
+    section .contaner{
         width: 100% !important;
         height: 600px !important;
         background-color: #e5edf1;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-    }    
+    }      
+    .contaner h2,h6{
+        text-align: center !important;
+    } 
+    section .contan{
+        width: 100% !important;
+        height: 100% !important;
+        /*background-color: #e5edf1;*/
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }  
+    section .contan img{
+        width: 100px;
+        height: 100px;
+        margin-left: 150px !important;
+        margin-top: 10px !important;;
+    }       
     section .contan .contact{
         margin-left: 0px !important;
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
     section .contan .contact h2{
         text-align: center !important;
@@ -290,23 +362,33 @@ a {
     }
     .open-site{
     /*background-image: url('../../static/images/21.jpg');*/
-    height: 100% !important;
+    height: 50% !important;
     background-size: cover;
     display: flex;
     justify-content: center !important;
-    /*margin: 4rem;*/
+    margin: 1rem;
 }
 .open-site .open-background h2,h3,h5{
     margin-top: 1%;
     color: white !important;
 }
+.about{
+    /*height: 100%;*/
+    margin-top: .1rem !important;
+    /*background-color: grey;*/
+    /*position: relative;*/
 }
+}
+
+
 
 /*....open site....*/
 .open-site{
-    background-image: url('../../static/images/21.jpg');
-    height: 40vh;
+    /*background-image: url('../../static/images/69.jpg');*/
+    /*background-color: lightblue;*/
+    height: 20vh;
     background-size: cover;
+    margin-top: 2px !important;
     display: flex;
     justify-content: center;
     margin: 4rem;
@@ -611,7 +693,7 @@ main .post-content .post-title a{
 /*....about...*/
 .about{
     height: 100%;
-    /*margin: .4rem;*/
+    margin-top: 7rem;
     /*background-color: grey;*/
     position: relative;
 }
@@ -786,13 +868,13 @@ li{
 }
 /*....FAQ....*/
 /*contact*/
-.contan{
+.contaner{
     height: 100%;
     background-color: #e5edf1;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-.contan .news h2,h6{
+.contaner .news h2,h6{
     margin: 1rem 6rem;
 }
 
